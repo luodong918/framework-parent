@@ -66,6 +66,7 @@ public class LogAdvice {
     @AfterThrowing(pointcut="controllerAspect()", throwing = "error")
     public void doAfterThrowing(JoinPoint joinPoint, Throwable error) {
         System.out.println("AfterThrowing:"+error.toString());
+
     }
 
 }
