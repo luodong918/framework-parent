@@ -18,9 +18,9 @@ public class AspectCollectionTest {
     @Autowired
     AspectCollection aspectCollection;
 
-    @Test
-    public void add() {
-        aspectCollection.toTestAspect();
-    }
+//    @Test
+//    public void add() {
+//        aspectCollection.toTestAspect();
+//    }
 
 }
